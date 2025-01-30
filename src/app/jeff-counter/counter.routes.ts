@@ -4,8 +4,8 @@ import { UiComponent } from './pages/ui.component';
 import { PrefsComponent } from './pages/prefs.component';
 import { CounterStore } from './services/counter.store';
 import { RyanPrefsComponent } from './pages/ryan-prefs.component';
+import { canMatchFeature } from '@shared';
 import { Ui2Component } from './pages/ui-2.component';
-import { canMatchFeature } from '../shared';
 export const COUNTER_ROUTES: Routes = [
   {
     path: '',
